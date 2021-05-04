@@ -120,3 +120,25 @@ h2 {
     align-items: center;
     justify-content: center;
 }
+
+@media (max-width: 786px) {
+    .hidden {
+        display: none;
+    }
+    .row {
+        justify-content: center;
+    }
+
+    #logo {
+        margin-left: 0.5em;
+    }
+
+    .main {
+        flex-direction: column;
+    }
+
+    .column {
+        width: 100%;
+        text-align: center;
+    }
+}
