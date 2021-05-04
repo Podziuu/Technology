@@ -72,3 +72,51 @@ ul a {
 #home {
     color: #007ff4;
 }
+
+header {
+    width: 100%;
+    height: 300px;
+    background-image: url("https://10websites-design-to-html-css.netlify.app/technology-design/images/banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.column {
+    width: calc(100%/3);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+.main {
+    display: flex;
+    margin: 2em 0.5em;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+#call {
+    text-decoration: none;
+    color: white;
+    background-color: #007ff4;
+    font-size: 1.5em;
+    padding: 1rem  1.5rem
+}
+
+#forcenter {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
